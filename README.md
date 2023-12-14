@@ -10,9 +10,6 @@ This is a machine learning project using New York Stock Exchange data.
     - [ ] securities.csv
 - [ ] Calculate growth for every stock that has a price at the end of 2016 and the end of 2018.
 - [ ] Find the growth percentage cut off for the 95 percentile.
-- [ ] Create a csv with that true or false data from step 3.
-- [ ] Clean fundamentals and stock price adjusted data sets.
-    - Make sure to remove stocks that don't have appear on the newly created csv
 - [ ] Summarize the stock price adjusted data set into growth per year for 2013 - 2016
 - [ ] Create a model that has all 4 years of fundamental data, growth data, and the categorization in one row for each stock.  
 **Now you have your dataset**
