@@ -6,7 +6,7 @@ This is a machine learning project using New York Stock Exchange data.
 - [ ] Clean data
     - [x] 2018-close-price.tsv
     - [x] price-split-adjusted.csv
-    - [ ] fundamentals.csv
+    - [x] fundamentals.csv
     - [ ] securities.csv
 - [ ] Calculate growth for every stock that has a price at the end of 2016 and the end of 2018.
 - [ ] Find the growth percentage cut off for the 95 percentile.
