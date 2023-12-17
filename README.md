@@ -1,7 +1,7 @@
 # New York Stock Exchange Machine Learning Project
 This is a machine learning project using New York Stock Exchange data.
 
-## Steps To Take
+## Clean and Wrangle the Data
 - [x] Get price at the end of 2018 for all stocks with a price for the end of 2016. 
 - [x] Clean data
     - [x] 2018-close-price.tsv
@@ -9,10 +9,10 @@ This is a machine learning project using New York Stock Exchange data.
     - [x] fundamentals.csv
     - [x] securities.csv
 - [x] Calculate growth for every stock that has a price at the end of 2016 and the end of 2018.
-- [ ] Find the growth percentage cut off for the 95 percentile.
+- [x] Find the growth percentage cut off for the 95 percentile.
 - [ ] Summarize the stock price adjusted data set into growth per year for 2013 - 2016
 - [ ] Create a model that has all 4 years of fundamental data, growth data, and the categorization in one row for each stock.  
-**Now you have your dataset**
+## Find a Good Machine Learning Model
 - [ ] Standardized values.
 - [ ] Break into test data and training data.
 - [ ] TBD... Have fun training models!
