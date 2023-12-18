@@ -11,7 +11,7 @@ This is a machine learning project using New York Stock Exchange data.
 - [x] Calculate growth for every stock that has a price at the end of 2015 and the end of 2018.
 - [x] Find the growth percentage cut off for the 95 percentile.
 - [x] Summarize the stock price adjusted data set into growth per year for 2013 - 2015
-- [ ] Create a model that has all 4 years of fundamental data, growth data, and the categorization in one row for each stock.  
+- [x] Create a model that has all 3 years of fundamental data, growth data, and the categorization in one row for each stock.  
 ## Find a Good Machine Learning Model
 - [ ] Standardized values.
 - [ ] Break into test data and training data.
@@ -21,4 +21,4 @@ This is a machine learning project using New York Stock Exchange data.
     - Reference this [scikit-learn link](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html) for models to try.
     - Make sure to try random forest decision trees and matrix training for tuning.
     - If processing time is slow on the laptop consider using a large vm on the home server.
-    - Create a private github repo for now and you can make it public later. This may be useful for organizing this todo list in issues.
+    - Consider using PCA since there are 233 features for the 389 rows.
