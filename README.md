@@ -2,15 +2,15 @@
 This is a machine learning project using New York Stock Exchange data.
 
 ## Clean and Wrangle the Data
-- [x] Get price at the end of 2018 for all stocks with a price for the end of 2016. 
+- [x] Get price at the end of 2018 for all stocks with a price for the end of 2015. 
 - [x] Clean data
     - [x] 2018-close-price.tsv
     - [x] price-split-adjusted.csv
     - [x] fundamentals.csv
     - [x] securities.csv
-- [x] Calculate growth for every stock that has a price at the end of 2016 and the end of 2018.
+- [x] Calculate growth for every stock that has a price at the end of 2015 and the end of 2018.
 - [x] Find the growth percentage cut off for the 95 percentile.
-- [x] Summarize the stock price adjusted data set into growth per year for 2013 - 2016
+- [x] Summarize the stock price adjusted data set into growth per year for 2013 - 2015
 - [ ] Create a model that has all 4 years of fundamental data, growth data, and the categorization in one row for each stock.  
 ## Find a Good Machine Learning Model
 - [ ] Standardized values.
