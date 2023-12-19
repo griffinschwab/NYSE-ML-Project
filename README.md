@@ -15,10 +15,22 @@ This is a machine learning project using New York Stock Exchange data.
 ## Find a Good Machine Learning Model
 - [ ] Standardized values.
 - [ ] Break into test data and training data.
-- [ ] TBD... Have fun training models!
-    - Probably should make some graphs showing Average training time, average time to answer (not sure the technical term for this), or compare performance of the different models.
-        - Be sure to call out hardware on any graphs that deal with training, or guessing time.
-    - Reference this [scikit-learn link](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html) for models to try.
-    - Make sure to try random forest decision trees and matrix training for tuning.
-    - If processing time is slow on the laptop consider using a large vm on the home server.
-    - Consider using PCA since there are 233 features for the 389 rows.
+- [ ] Train models.
+    - [ ] Without PCA.
+        - [ ] Linear SVC.
+        - [ ] K Nearest Neighbors.
+        - [ ] Decision Tree/ Random Forest.
+    - [ ] With PCA.
+        - [ ] Linear SVC.
+        - [ ] K Nearest Neighbors.
+        - [ ] Decision Tree/ Random Forest.
+- [ ] Compare Trained Models.
+
+## Notes
+- Probably should make some graphs showing Average training time, average time to answer (not sure the technical term for this), or compare performance of the different models.
+    - Be sure to call out hardware on any graphs that deal with training, or guessing time.
+- Reference this [scikit-learn link](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html) for models to try.
+- Make sure to try random forest decision trees and matrix training for tuning.
+- If processing time is slow on the laptop consider using a large vm on the home server.
+- Consider using PCA since there are 233 features for the 389 rows.
+- Reference this [scikit-learn link](https://scikit-learn.org/stable/model_persistence.html) for ways to export models.
