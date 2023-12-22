@@ -14,9 +14,9 @@ This is a machine learning project using New York Stock Exchange data.
 - [x] Create a model that has all 3 years of fundamental data, growth data, and the categorization in one row for each stock.  
 ## Find a Good Machine Learning Model
 - [x] Break into test data and training data.
-- [ ] Use one hot encoding on categorical data.
 - [ ] Standardized values.
-- [ ] Create a function to prep data.
+    - [ ] Save scalar model to file.
+    - [ ] Use the scalar model to standardize values for the test data.
 - [ ] Train models.
     - [ ] Without PCA.
         - [ ] Linear SVC.
