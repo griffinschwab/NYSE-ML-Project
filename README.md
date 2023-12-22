@@ -17,6 +17,7 @@ This is a machine learning project using New York Stock Exchange data.
 - [x] Standardized values.
     - [x] Save scalar model to file.
     - [x] Use the scalar model to standardize values for the test data.
+- [x] Create base case (Naive Predictor).
 - [ ] Train models.
     - [ ] Without PCA.
         - [ ] Linear SVC.
