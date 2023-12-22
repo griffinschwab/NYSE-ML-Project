@@ -13,8 +13,10 @@ This is a machine learning project using New York Stock Exchange data.
 - [x] Summarize the stock price adjusted data set into growth per year for 2013 - 2015
 - [x] Create a model that has all 3 years of fundamental data, growth data, and the categorization in one row for each stock.  
 ## Find a Good Machine Learning Model
-- [ ] Standardized values.
 - [ ] Break into test data and training data.
+- [ ] Use one hot encoding on categorical data.
+- [ ] Standardized values.
+- [ ] Create a function to prep data.
 - [ ] Train models.
     - [ ] Without PCA.
         - [ ] Linear SVC.
