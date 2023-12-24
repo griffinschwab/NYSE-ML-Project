@@ -20,11 +20,11 @@ This is a machine learning project using New York Stock Exchange data.
 - [x] Create base case (Naive Predictor).
 - [ ] Train models.
     - [ ] Without PCA.
-        - [ ] Linear SVC.
+        - [x] SVC.
         - [ ] K Nearest Neighbors.
         - [ ] Decision Tree/ Random Forest.
     - [ ] With PCA.
-        - [ ] Linear SVC.
+        - [ ] SVC.
         - [ ] K Nearest Neighbors.
         - [ ] Decision Tree/ Random Forest.
 - [ ] Compare Trained Models.
