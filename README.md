@@ -9,7 +9,7 @@ This is a machine learning project using New York Stock Exchange data.
     - [x] fundamentals.csv
     - [x] securities.csv
 - [x] Calculate growth for every stock that has a price at the end of 2015 and the end of 2018.
-- [x] Find the growth percentage cut off for the 95 percentile.
+- [x] Find the growth percentage cut off for the 80 percentile.
 - [x] Summarize the stock price adjusted data set into growth per year for 2013 - 2015
 - [x] Create a model that has all 3 years of fundamental data, growth data, and the categorization in one row for each stock.  
 ## Find a Good Machine Learning Model
@@ -21,7 +21,7 @@ This is a machine learning project using New York Stock Exchange data.
 - [ ] Train models.
     - [ ] Without PCA.
         - [x] SVC.
-        - [ ] K Nearest Neighbors.
+        - [x] K Nearest Neighbors.
         - [ ] Decision Tree/ Random Forest.
     - [ ] With PCA.
         - [ ] SVC.
