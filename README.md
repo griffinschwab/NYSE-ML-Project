@@ -19,10 +19,10 @@ This is a machine learning project using New York Stock Exchange data.
     - [x] Use the scalar model to standardize values for the test data.
 - [x] Create base case (Naive Predictor).
 - [ ] Train models.
-    - [ ] Without PCA.
+    - [x] Without PCA.
         - [x] SVC.
         - [x] K Nearest Neighbors.
-        - [ ] Decision Tree/ Random Forest.
+        - [x] Decision Tree/ Random Forest.
     - [ ] With PCA.
         - [ ] SVC.
         - [ ] K Nearest Neighbors.
