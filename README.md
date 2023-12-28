@@ -25,7 +25,7 @@ This is a machine learning project using New York Stock Exchange data.
         - [x] Decision Tree/ Random Forest.
     - [ ] With PCA.
         - [x] SVC.
-        - [ ] K Nearest Neighbors.
+        - [x] K Nearest Neighbors.
         - [ ] Decision Tree/ Random Forest.
 - [ ] Compare Trained Models.
 
