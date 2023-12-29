@@ -27,7 +27,7 @@ This is a machine learning project using New York Stock Exchange data.
         - [x] SVC.
         - [x] K Nearest Neighbors.
         - [x] Decision Tree/ Random Forest.
-- [ ] Compare Trained Models.
+- [x] Compare Trained Models.
 
 ## Notes
 - Probably should make some graphs showing Average training time, average time to answer (not sure the technical term for this), or compare performance of the different models.
