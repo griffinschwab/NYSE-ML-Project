@@ -1,39 +1,31 @@
 # New York Stock Exchange Machine Learning Project
 This is a machine learning project using New York Stock Exchange data.
 
-## Clean and Wrangle the Data
-- [x] Get price at the end of 2018 for all stocks with a price for the end of 2015. 
-- [x] Clean data
-    - [x] 2018-close-price.tsv
-    - [x] price-split-adjusted.csv
-    - [x] fundamentals.csv
-    - [x] securities.csv
-- [x] Calculate growth for every stock that has a price at the end of 2015 and the end of 2018.
-- [x] Find the growth percentage cut off for the 80 percentile.
-- [x] Summarize the stock price adjusted data set into growth per year for 2013 - 2015
-- [x] Create a model that has all 3 years of fundamental data, growth data, and the categorization in one row for each stock.  
-## Find a Good Machine Learning Model
-- [x] Break into test data and training data.
-- [x] Standardized values.
-    - [x] Save scalar model to file.
-    - [x] Use the scalar model to standardize values for the test data.
-- [x] Create base case (Naive Predictor).
-- [x] Train models.
-    - [x] Without PCA.
-        - [x] SVC.
-        - [x] K Nearest Neighbors.
-        - [x] Decision Tree/ Random Forest.
-    - [x] With PCA.
-        - [x] SVC.
-        - [x] K Nearest Neighbors.
-        - [x] Decision Tree/ Random Forest.
-- [x] Compare Trained Models.
+## Purpose
+The goal with this project is to create a Machine Learning (ML) model that can achieve a F-score of 80% or better. The beta for the F-score will be set to 0.5.
 
-## Notes
-- Probably should make some graphs showing Average training time, average time to answer (not sure the technical term for this), or compare performance of the different models.
-    - Be sure to call out hardware on any graphs that deal with training, or guessing time.
-- Reference this [scikit-learn link](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html) for models to try.
-- Make sure to try random forest decision trees and matrix training for tuning.
-- If processing time is slow on the laptop consider using a large vm on the home server.
-- Consider using PCA since there are 233 features for the 389 rows.
-- Reference this [scikit-learn link](https://scikit-learn.org/stable/model_persistence.html) for ways to export models.
+## Notebooks
+- [clean-and-wrangle-data](./clean-and-wrangle-data.ipynb)
+    - This notebook is for cleaning and wrangling the below data files into one output CSV.
+    - **Outputs**
+        - A final data model in a csv file. This final file will consist of one row per stock. File location will be `./outputs/data/finalmodel.csv`.
+- [train-and-test-ml-models](./train-and-test-ml-models.ipynb)
+    - This notebook is where the training of the ML models will take place.
+    - Three algorithms will be used
+        - Support Vector Classifier (SVC)
+        - K nearest neighbors
+        - Random forest decision trees
+    - Each Model will be trained on time without and one time with Principal Component Analysis (PCA) dimensional reduction.
+    - **Outputs**
+        - A joblib file for each SciKit-Learn model that gets trained. This is so that you can run test on the models with out having to train them again. These files are save in `./outputs/models/`.
+        - A CSV file with the measured performance of each ML model. This file is saved as `./outputs/data/model-performance.csv`. 
+
+## The Data
+- From [Kaggle.com](https://www.kaggle.com/datasets/dgawlik/nyse)
+- [2018-close-price](./data/raw/2018-close-price.tsv): Stock prices for the last day the market was open in 2018. This was gathered using Google Finance.
+- [fundamentals](./data/raw/fundamentals.csv): Stock fundamentals data for each stock. each stock has about four years worth of data but not all for the same years.
+- [prices-split-adjusted](./data/raw/prices-split-adjusted.csv): Consist of the closing price for each stock for each day from 2010 through 2016.
+- [securities](./data/raw/securities.csv): Some additional meta data for each stock.
+
+### Disclaimer
+> This is for educational purposes only. Please do not use this to actually guide any investment decisions. This is not to be used to make any real world investment decisions.
