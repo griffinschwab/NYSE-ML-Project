@@ -2,7 +2,7 @@
 This is a machine learning project using New York Stock Exchange data.
 
 ## Purpose
-The goal with this project is to create a Machine Learning (ML) model that can achieve a F-score of 80% or better. The beta for the F-score will be set to 0.5.
+The goal of this project is to create a machine learning model that will predict which publicly traded companies will outperform most of the market. The target F-score with a beta of 0.5 is 80 percent. 
 
 ## Notebooks
 - [clean-and-wrangle-data](./clean-and-wrangle-data.ipynb)
