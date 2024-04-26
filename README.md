@@ -28,4 +28,4 @@ The goal of this project is to create a machine learning model that will predict
 - [securities](./data/raw/securities.csv): Some additional meta data for each stock.
 
 ### Disclaimer
-> This is for educational purposes only. Please do not use this to actually guide any investment decisions. This is not to be used to make any real world investment decisions.
+> This is for demonstration purposes only. Please do not use this to actually guide any investment decisions. This is not to be used to make any real world investment decisions.
